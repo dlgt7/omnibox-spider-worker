@@ -39,7 +39,7 @@ export async function generateConfig(env, forceRefresh = false) {
 }
 
 function buildTVBoxConfig(spiders, env) {
-  const baseUrl = env.SPIDER_REPO_URL || 'https://github.com/dlgt7/OmniBox-Spider';
+  const baseUrl = env.SPIDER_REPO_URL || 'https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider';
   
   // 按类别分组
   const groupedSpiders = {};
