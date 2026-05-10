@@ -221,7 +221,7 @@ main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 [vars]
-SPIDER_REPO_URL = "https://github.com/Silent1566/OmniBox-Spider"
+SPIDER_REPO_URL = "https://github.com/dlgt7/OmniBox-Spider"
 
 [site]
 bucket = "./public"
@@ -238,7 +238,7 @@ preview_id = "你的预览环境KV_ID"  # 可选
 
 ```toml
 [vars]
-SPIDER_REPO_URL = "https://github.com/Silent1566/OmniBox-Spider"
+SPIDER_REPO_URL = "https://github.com/dlgt7/OmniBox-Spider"
 ```
 
 #### 4.2 使用 Secrets（敏感信息）
@@ -666,7 +666,7 @@ wrangler tail --status error
 
 ## 相关链接
 
-- [OmniBox-Spider](https://github.com/Silent1566/OmniBox-Spider) - 爬虫脚本仓库
+- [OmniBox-Spider](https://github.com/dlgt7/OmniBox-Spider) - 爬虫脚本仓库
 - [Cloudflare Workers](https://developers.cloudflare.com/workers/) - 官方文档
 - [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/) - CLI 文档
 - [TVBox](https://github.com/CatVodTVOfficial/TVBoxOSC) - TVBox 项目
