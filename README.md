@@ -14,6 +14,11 @@
 - [更新维护](#更新维护)
 - [故障排查](#故障排查)
 
+**📚 更多文档：**
+- [KV 命名空间配置详细步骤](KV_SETUP_GUIDE.md) ⭐ 必看
+- [快速部署流程图](QUICK_DEPLOY_GUIDE.md)
+- [Cloudflare Pages 部署指南](CLOUDFLARE_PAGES_DEPLOY.md)
+
 ---
 
 ## 一键部署
@@ -83,6 +88,27 @@
 **KV 命名空间配置：**
 - ⚠️ 必须先创建 KV 命名空间才能部署
 - ⚠️ 需要将真实的 KV ID 填入 `wrangler.toml`
+- 📖 **详细步骤**: 查看 [KV_SETUP_GUIDE.md](KV_SETUP_GUIDE.md)
+
+**快速创建 KV 命名空间：**
+
+```bash
+# 1. 登录 Cloudflare
+wrangler login
+
+# 2. 创建 KV 命名空间
+wrangler kv:namespace create CACHE
+
+# 3. 复制输出的 ID，例如：
+# { binding = "CACHE", id = "abc123def456..." }
+
+# 4. 更新 wrangler.toml，将 your-kv-namespace-id 替换为真实 ID
+
+# 5. 提交到 GitHub（如果使用 Cloudflare Pages）
+git add wrangler.toml
+git commit -m "Update KV namespace ID"
+git push
+```
 
 ---
 
