@@ -95,8 +95,8 @@ function scanCategory(category) {
           category: category,
           file: file,
           path: `${category}/${file}`,
-          url: `https://github.com/Silent1566/OmniBox-Spider/raw/main/${category}/${file}`,
-          downloadUrl: `https://gh-proxy.org/https://github.com/Silent1566/OmniBox-Spider/raw/main/${category}/${file}`,
+          url: `https://github.com/dlgt7/OmniBox-Spider/raw/main/${category}/${file}`,
+          downloadUrl: `https://gh-proxy.org/https://github.com/dlgt7/OmniBox-Spider/raw/main/${category}/${file}`,
         });
       } catch (error) {
         console.error(`解析文件失败: ${file}`, error.message);
