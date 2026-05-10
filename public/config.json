@@ -6,7 +6,8 @@
       "key": "123TV",
       "name": "🚀123TV",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/123TV.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/123TV.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -15,7 +16,8 @@
       "key": "3Q影视",
       "name": "🚀3Q影视",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/3Q影视.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/3Q影视.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -24,7 +26,8 @@
       "key": "4KVM",
       "name": "🚀4KVM",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/4KVM.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/4KVM.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -33,7 +36,8 @@
       "key": "88看球",
       "name": "🚀88看球",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/88看球.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/88看球.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -42,7 +46,8 @@
       "key": "Auete影视",
       "name": "🚀Auete影视",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/Auete影视.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/Auete影视.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -51,7 +56,8 @@
       "key": "FKTV",
       "name": "🚀FKTV",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/FKTV.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main/影视/采集/FKTV.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
