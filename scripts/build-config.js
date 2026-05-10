@@ -196,6 +196,12 @@ async function main() {
     // 写入配置文件
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(config, null, 2), 'utf-8');
     console.log(`✓ 配置文件已生成: ${OUTPUT_PATH}`);
+    
+    // 同时生成 jiekou.json（相同内容）
+    const jiekouPath = path.join(outputDir, 'jiekou.json');
+    fs.writeFileSync(jiekouPath, JSON.stringify(config, null, 2), 'utf-8');
+    console.log(`✓ 配置文件已生成: ${jiekouPath}`);
+    
     console.log(`✓ 站点总数: ${config.sites.length}`);
   } catch (error) {
     console.error('生成配置失败:', error.message);
@@ -213,6 +219,10 @@ async function main() {
     }
     
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(emptyConfig, null, 2), 'utf-8');
+    
+    const jiekouPath = path.join(outputDir, 'jiekou.json');
+    fs.writeFileSync(jiekouPath, JSON.stringify(emptyConfig, null, 2), 'utf-8');
+    
     console.log('✓ 已生成空配置文件');
   }
 }
