@@ -9,9 +9,7 @@
     "tail": "wrangler tail",
     "build-config": "node scripts/build-config.js"
   },
-  "dependencies": {
-    "@cloudflare/kv-asset-handler": "^0.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "wrangler": "^3.0.0"
   },
