@@ -11,7 +11,7 @@ const OUTPUT_PATH = path.join(__dirname, '..', 'public', 'config.json');
 
 // GitHub 仓库 URL
 const GITHUB_REPO = 'https://github.com/dlgt7/OmniBox-Spider';
-const GITHUB_RAW = 'https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main';
+const GITHUB_RAW = 'https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main/';
 
 // 分类列表
 const CATEGORIES = [
