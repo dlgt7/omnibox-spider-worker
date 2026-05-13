@@ -12,7 +12,7 @@ export async function scanSpiders(env) {
   console.log('正在从 GitHub 扫描爬虫脚本...');
   
   const spiders = [];
-  const GITHUB_RAW = 'https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/main';
+  const GITHUB_RAW = 'https://raw.githubusercontent.com/dlgt7/OmniBox-Spider/refs/heads/main';
 
   for (const category of CATEGORIES) {
     try {
