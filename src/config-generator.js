@@ -50,7 +50,8 @@ export async function generateConfig(env, forceRefresh = false) {
       key: spider.name.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g, '').substring(0, 30),
       name: `🚀${spider.name}`,
       type: 3,
-      api: spider.downloadUrl,
+      ext: spider.downloadUrl,
+      api: 'https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js',
       searchable: 1,
       quickSearch: 1,
       filterable: 1
